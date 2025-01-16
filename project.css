@@ -1,0 +1,169 @@
+
+body{
+    width: 100%;
+    overflow-x:hidden;
+    display: flex;
+}
+
+.start {
+    width: 100%;
+    height: 72px;
+    min-height: 900px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.mainclass {
+    width: 100%; 
+    margin-left: 80px;
+    padding-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+.header {
+    width: 100%;
+    max-width: 1080px; 
+    height: auto;
+    padding: 24px 32px;
+    background-color: #524deb1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    box-sizing: border-box; 
+}
+
+.first_header {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    gap: 20px;
+}
+
+.up {
+    font-family: 'Archivo', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.RetroFuturist {
+    font-family: 'DotGothic16', sans-serif;
+    line-height: 42px;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.contact {
+    font-family: 'Archivo', sans-serif;
+    height: 24px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* Base Layout for .div2 */
+.div2 {
+    width: 100%;
+    height: auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 48px;
+}
+
+.Welcome {
+    width: 100%;
+    height: auto;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+}
+
+
+/* Responsive Adjustments */
+
+/* Tablet Screen: 768px and below */
+@media screen and (max-width: 768px) {
+    .mainclass {
+        padding-top: 16px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 16px;
+    }
+
+    .first_header {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .RetroFuturist {
+        font-size: 32px;
+        line-height: 36px;
+        padding-bottom: 16px;
+    }
+
+    .contact {
+        font-size: 15px;
+        height: auto;
+    }
+
+    .Welcome {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .img1 {
+        padding-top: 20px;
+    }
+}
+
+/* Mobile Screen: 480px and below */
+@media screen and (max-width: 480px) {
+    .start {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .header {
+        padding: 12px;
+    }
+
+    .RetroFuturist {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 12px;
+    }
+
+    .contact {
+        font-size: 14px;
+    }
+
+    .Welcome {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .img1 {
+        padding-top: 15px;
+    }
+}
