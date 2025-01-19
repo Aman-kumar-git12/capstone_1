@@ -172,7 +172,7 @@ body{
 /* middle portion */
 .middle{
     width: 100%;
-    height: 1191px;
+    height: auto;
     border-radius: 1px;
 }
 
@@ -504,3 +504,134 @@ body{
     font-size: 17px;
     line-height: 24px;
 }
+
+
+/* painting section */
+.painting_sec{
+    background: radial-gradient(1076.95% 1084.24% at 63.41% -25.86%, rgba(255, 255, 255, 0.7) 37.37%, rgba(24, 22, 174, 0.042) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+    height:auto;
+    width:100%;
+    border-radius: 1px;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    background-color:#FFFFFF;
+    ;
+
+}
+.painting{
+    width: 100%;
+}
+.painting_girl{
+    height:auto ;
+    width: 100%;
+    border-radius: 1px;
+}
+.painting_text{
+    height:auto ;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.innovative{
+    width:100%;
+    height: auto;
+    font-family: 'DotGothic16',sans-serif;
+    font-weight:400;
+    font-size: clamp(1rem, 4vw, 3rem);;
+    flex-wrap: wrap;
+    line-height:68px;
+    letter-spacing: -2%;
+
+}
+.explore{
+    height: auto;
+    width: 100%;
+    font-family: 'Archivo',sans-serif;
+    font-weight:400;
+    font-size:clamp(1rem, 2.5vw, 1.6rem);;
+    flex-wrap: wrap;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+
+}
+.check{
+    height: auto;
+    width: 100%
+
+
+}
+.out{
+    padding-top:40px;
+}
+.but{
+    background-color:#2419F3;
+    flex-wrap: wrap;
+    width: 25%;
+    color:#FFFFFF;
+    size: auto;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-family: 'Archivo Narrow',sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+/* last section */
+.statement{
+    height:auto;
+    width: 100%;
+}
+.state{
+    height: auto;
+    font-family:'DotGothic16',sans-serif ;
+    font-weight:400;
+    font-size: clamp(30px, 4.5vw, 48px);
+    line-height: 52px;
+
+    text-align: center;
+    padding: clamp(40px, 10vw, 120px);
+}
+
+.lst_middle{
+    height:auto;
+    width: 100%;
+
+}
+.cont{
+    padding-top: 80px;
+    height: auto;
+    font-family:'DotGothic16',sans-serif ;
+    font-weight:400;
+    font-size: clamp(80px, 4vw, 30px);
+    line-height: 120px;
+    color: #000000;
+    text-align: center;
+
+}
+.lst_image{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: auto;
+    width: 100%;
+
+
+}
+.futuristic{
+    height: auto;
+    width: 100%;
+    border: #000000;
+}
+
+
+
+
+
+
+
